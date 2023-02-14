@@ -23,3 +23,17 @@ ciphertext (c): 1220012318588871886132524757898884422174534558055593713309088304
 ### More information about RSA
 ##### How does RSA work?
 RSA is a public key cryptosystem, meaning that messages are encrypted with a public key that is known to everyone and decrypted using a private key known only to the receiver. This private key and public key are generated ahead of time. The generation uses primes, since the time needed to factorize a large number into its prime factors is infeasibly high for large numbers and large primes.
+
+First, two different large primes are chosen, `p` and `q`. These are kept secret.
+
+Then, compute `n = p * q`, the modulus that will be used during encryption/decryption. This is public.
+
+Then `totient(n)` is calculated. `totient(n)` is either Carmichael's totient function: `lcm(p - 1, q - 1)` or the Euler totient function. Most CTFs use the Euler totient function, `totient(n) = (p - 1) * (q - 1)`. This is secret.
+
+Pick an `e` between 1 and `totient(n)` so that `totient(n)` and `e` share no common factors. `e` is often `65537` due to its efficiency. This, in combination with `n`, is the public key.
+
+Find `d` so that `e * d ≡ 1 (mod totient(n))`. In other words, find the modular multiplicative inverse of `e` modulo `totient(n)`. `d`, in combination with `n`, is the private key.
+
+In order to encrypt a message m, find `pow(m,e,n)`, or `m` raised to the `e` modulo `n`.
+
+To decrypt a message c, find `pow(c,d,n)`.
