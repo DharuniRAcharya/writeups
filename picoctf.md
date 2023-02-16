@@ -41,5 +41,6 @@ To decrypt a message c, find `pow(c,d,n)`.
 ## Approach
 
 I created a python file minirsa.py to search the flag for the challenge. A snippet is displayed in the image below:
+
 ![Alt text](/minirsa.png)
 
