@@ -3,6 +3,9 @@
 ## Category
 Reverse Engineering
 
+## Points
+50
+
 ## Problem Description
 Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: source. The shop is open for business at nc mercury.picoctf.net 24851.
 
