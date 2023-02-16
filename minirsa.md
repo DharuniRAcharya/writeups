@@ -47,3 +47,6 @@ I created a python file minirsa.py to search the flag for the challenge. A snipp
 ![Alt text](/minirsa1.png)
 
 
+The execution of this python code successfully generated the flag required for clearing this miniRSA challenge. The final output  is as displayed below:
+
+![Alt text](/minirsa3.png)
