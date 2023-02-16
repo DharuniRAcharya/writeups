@@ -44,3 +44,6 @@ I created a python file minirsa.py to search the flag for the challenge. A snipp
 
 ![Alt text](/minirsa.png)
 
+![Alt text](/minirsa1.png)
+
+
