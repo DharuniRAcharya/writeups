@@ -37,3 +37,9 @@ Find `d` so that `e * d ≡ 1 (mod totient(n))`. In other words, find the modula
 In order to encrypt a message m, find `pow(m,e,n)`, or `m` raised to the `e` modulo `n`.
 
 To decrypt a message c, find `pow(c,d,n)`.
+
+## Approach
+
+I created a python file minirsa.py to search the flag for the challenge. A snippet is displayed in the image below:
+![alt text]("D:\Dharuni\picoctf\minirsa.py.png")
+
