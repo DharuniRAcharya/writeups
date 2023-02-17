@@ -23,4 +23,4 @@ You have 40 coins
 ```
 100 coins are required to capture the flag but there are only 40 coins.
 
-![Alt text] (shop.png)
+![Alt text] (/shop.png)
