@@ -25,3 +25,4 @@ You have 40 coins
 
 ![Alt text](/shop.png)
 
+![Alt text](/shop1.png)
