@@ -26,3 +26,7 @@ You have 40 coins
 ![Alt text](/shop.png)
 
 ![Alt text](/shop1.png)
+
+Next a simple python code was wriiten to decode the flag and successfully complete the challenge.
+
+![Alt text](/shop2.png)
