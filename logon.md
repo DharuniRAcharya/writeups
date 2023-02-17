@@ -15,3 +15,7 @@ https://jupiter.challenges.picoctf.org/problem/15796/ ([link](https://jupiter.ch
 On opening the link and entering the username and password as admin, no flag was obtained. However, when inspecting the the source code it was found that admin value was false thus, the value was changed to true as shown below.
 
 ![Alt text](/logon1.png)
+
+This generated the flag to solve this challenge as shown below.
+
+![Alt text](/logon.png)
