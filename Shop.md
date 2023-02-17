@@ -20,3 +20,7 @@ You have 40 coins
 (2) Fruitful Flag       100     1
 (3) Sell an Item
 (4) Exit
+```
+100 coins are required to capture the flag but there are only 40 coins.
+
+![Alt text] (shop.png)
