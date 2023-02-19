@@ -11,6 +11,7 @@ While you're going through the FBI's servers, you stumble across their incredibl
 see if you can find the flag!
 
 ## Approach
+The displayed steps were followed using python to capture the flag for this challenge.
 
 ![Alt text](/Surfing_the_Waves.png)
 
