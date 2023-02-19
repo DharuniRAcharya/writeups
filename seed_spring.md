@@ -18,6 +18,6 @@ Following the three steps:
 This works on the concept of `Pseudo-Random Integers`.
 
 Thus a simple C code to generate random numbers.
-
+![Alt text](/seed_spring2.png)
 
   
