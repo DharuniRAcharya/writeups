@@ -12,7 +12,7 @@ see if you can find the flag!
 
 ## Approach
 
-![Alt text](/Surfing the Waves.png)
+![Alt text](/Surfing_the_Waves.png)
 
 ![Alt text](/Surfing the Waves1.png)
 
